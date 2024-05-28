@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1f23;
+    background-image: url('https://i.gifer.com/origin/1a/1af8d3b487b77085d5288814f151e1de_w200.gif');
+
+}
+#image {
+    max-width: 100%;
+    max-height: 50%;
+    animation: spinAnimation linear infinite;
+}
+.overlay-image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 50%;
+    /* top: 0;
+    left: 0; */
+    /* width: 50%;
+    height: 100%; */
+}
+@keyframes spinAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
