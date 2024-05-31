@@ -34,3 +34,7 @@ function showHideUsers2() {
         isShows = true;
     }
 }
+
+function buttonsOnclick(){
+    
+}
